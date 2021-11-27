@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /*font-size: 18px;
+  line-height: 1.25;
+  font-weight: 500;
+  font-family: Tahoma, Verdana, Arial, sans-serif;
+  */
+  font: 400 16px/1.5  Lato, Arial, Tahoma, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  /*color: rgb()*/
+}
+
+ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid #000;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+input {
+  outline: none;
+}
+
+
+.wrapper {
+  overflow: hidden;
+}
+
+.container {
+  width: 1600px;
+  margin: 0 auto;
+}
+
+.header .banner img {
+  width: 100%;
+}
+
+.banner {
+  background: url("../images/bg.png") no-repeat;
+  background-size: cover;
+}
+
+.header .banner {
+  min-height: 100px;
+}
