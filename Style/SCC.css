@@ -359,6 +359,28 @@ input {
 #shop .row   .col-fullheight {
   height: 530px;
 }
+
+.discover a {
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 20px 55px;
+  border: 1px solid #94979a;
+  word-spacing: 8px;
+  transition: .4s;
+}
+
+.discover {
+  background: #282f35;
+  padding: 75px 0;
+
+}
+
+.discover a:hover {
+  color: #282f35;
+  background: #fff;
+}
 @media(max-width: 1024px) {
   .logo-mobile, .menu-button, .close-menu {
     display: block;
