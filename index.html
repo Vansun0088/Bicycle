@@ -2,6 +2,10 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+/>
     <link rel="stylesheet" href="./Style/SCC.css">
     <title>Bicycle</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,28 +13,187 @@
   <body>
     <div class="wrapper">
       <header calss="header">
-        <nav class="navigation">
+        <div class="container">
+          <nav class="navigation">
 
-        </nav>
-        <div class="banner">
+              <a class="logo-mobile" href="#">
+                <img src="./images/logo.png" alt="Bicycle">
+              </a>
+              <div class="navigation-wrapper">
+              <ul class="left-navigation menu">
+                <li> <a href="#about">about us</a>
+                </li>
+                <li> <a href="#work">work</a>
+                </li>
+              </ul>
+              <a class="logo" href="#">
+                <img src="./images/logo.png" alt="Bicycle">
+              </a>
+              <ul class="right-navigation menu">
+                <li> <a href="#shop">shop</a>
+                </li>
+                <li> <a href="#contact">contact</a>
+                </li>
+              </ul>
+              <span class="close-menu">
+
+              </span>
+            </div>
+            <span class="menu-button">
+              <img src="./images/menu.png" alt="menu icon">
+            </span>
+          </nav>
+        </div>
+        <div class="banner"></div>
+        </header>
+        <div class="container">
 
         </div>
-      </header>
-    </div>
+        <main>
+          <section id="about">
+            <div class="container">
+              <div class="after-banner">
+                  <img src="./images/Icon1.png" alt="icon1">
+                  <h4 class="text18">a new generation of vintage bike</h4>
+                  <p class="parag18">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
 
+                </div>
+            </div>
+          </section>
+          <section id="work">
+            <div class="container">
+              <div class="row">
+                <div class="col-66 centered bg-image" style="background-image: url('./images/bicycle1.png')">
+                  <img src="./images/logobicycle.png" alt="icon">
+                </div>
+                <div class="col-33">
+                  <div class="col-text">
+                    <img src="./images/Icon2.png" alt="icon">
+                    <h4 class="text18">vintage olivia</h4>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived.</p>
+                  </div>
+                  <div class="col-100-img">
+                  <img src="./images/shop1.jpg" alt="shop1">
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-33">
+                  <div class="col-text">
+                    <img src="./images/Icon3.png" alt="icon">
+                    <h4 class="text18">la borisa</h4>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived.</p>
+                  </div>
+                  <div class="col-100-img">
+                    <img src="./images/shop2.jpg" alt="shop1">
+                  </div>
+                </div>
+                <div class="col-66 centered bg-image" style="background-image: url('./images/bicycle2.jpg')">
+                  <img src="./images/logobicycle1.png" alt="icon">
+                </div>
+              </div>
+            </div>
+            <div class="container">
+              <div class="row">
+                <div class="col-33 centered bg-image" style="background-image: url('./images/bicycle3.jpg')">
+                  <img src="./images/logobicycle2.png" alt="icon">
+                </div>
+                <div class="col-33">
+                  <div class="col-text">
+                    <img src="./images/Icon4.png" alt="icon">
+                    <h4 class="text18">retro bike - m. hulot</h4>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived.</p>
+                  </div>
+                  <div class="col-100-img">
+                    <img src="./images/shop3.jpg" alt="shop1">
+                  </div>
+                </div>
+                <div class="col-33 centered bg-image" style="background-image: url('./images/bicycle4.jpg')">
+                  <img src="./images/logobicycle3.png" alt="icon">
+                </div>
+              </div>
+            </div>
+          </section>
+          <div class="reviews">
+            <div class="container">
 
+            <div class="swiper swiper-reviews">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="./images/twitter.png" alt="twitter">
+                  <h4>AOD New York  @aod  <span>/  35 min</span></h4>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut tellus ac nulla semper rhoncus. Nullam a odio porttitor, dictum turpis vitae, pretium ante amet.</p>
+                </div>
+                <div class="swiper-slide"><img src="./images/twitter.png" alt="twitter">
+                  <h4>AOD Ogayo  @aod  <span>/  35 min</span></h4>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut tellus ac nulla semper rhoncus. Null</p>
+                </div>
+                <div class="swiper-slide"><img src="./images/twitter.png" alt="twitter">
+                  <h4>AOD Canada  @aod  <span>/  35 min</span></h4>
+                  <p>Lorem ipsum dolor sit amet, consectetur</p>
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+          </div>
+          <section id="shop">
+            <div class="container">
+              <div class="row">
+                <div class="col-33">
+                  <div class="row">
+                    <a href="#" class="col-50" style="background-image: url('./images/shop-b1.jpg')">
 
+                    </a>
+                    <a href="#" class="col-50" style="background-image: url('./images/shop-b2.jpg')">
 
+                    </a>
+                  </div>
+                  <div class="row">
+                    <a href="#" class="col-100" style="background-image: url('./images/shop-b3.jpg')">
 
+                    </a>
+                  </div>
+                </div>
+                <div class="col-33">
+                  <div class="row">
+                    <a href="#" class="col-50 col-fullheight" style="background-image: url('./images/shop-b4.jpg')">
 
+                    </a>
+                    <a href="#" class="col-50 col-fullheight" style="background-image: url('./images/shop-b5.jpg')">
 
+                    </a>
+                  </div>
+                </div>
+                <div class="col-33">
+                  <div class="row">
+                    <a href="#" class="col-100" style="background-image: url('./images/shop-b6.jpg')">
 
+                    </a>
+                  </div>
+                  <div class="row">
+                    <a href="#" class="col-50" style="background-image: url('./images/shop-b7.jpg')">
 
+                    </a>
+                    <a href="#" class="col-50" style="background-image: url('./images/shop-b8.jpg')">
 
+                    </a>
+                  </div>
 
+                </div>
+              </div>
+            </div>
 
+          </section>
+          <section id="contact">
+            <div class="container">
 
-    <script src="./js/jquerry.min.js"</script>
-    <script src="./js/scripts.js"</script>
+            </div>
+          </section>
+        </main>
+      </div>
+    <script src="./js/jquery.min.js"></script>
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="./js/scripts.js"></script>
   </body>
 </html>
